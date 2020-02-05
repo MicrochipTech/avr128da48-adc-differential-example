@@ -6,9 +6,9 @@ In the main loop, the program reads the differential value between the AIN4 anal
 
 ## Configurations
 
-PD4 - Consfiured as AIN4
+PD4 - Configured as AIN4
 
-PD3 - Consfiured as AIN3
+PD3 - Configured as AIN3
 
 ADC0 - Configured in Free Run Mode to accumulate 64 samples
 
