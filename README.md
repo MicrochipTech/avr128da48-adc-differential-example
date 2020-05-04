@@ -12,6 +12,7 @@ More details and code examples on the AVR128DA48 can be found at the following l
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 PD4 - Configured as AIN4
 
 PD3 - Configured as AIN3
@@ -38,6 +39,29 @@ The following configurations must be made for this project:
 - ADC0 - Configured in Free Run Mode with Differential Mode activated
 - VREF - Reference voltage for ADC0 set to 2.048V
 
+=======
+
+## Software Used
+- Atmel Studio 7.0.2397 or newer [(microchip.com/mplab/avr-support/atmel-studio-7)](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- AVR-Dx 1.0.18 or newer Device Pack
+
+
+## Hardware Used
+- AVR128DA48 Curiosity Nano [(DM164151)](https://www.microchip.com/Developmenttools/ProductDetails/DM164151)
+- Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
+- POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click)
+- POT 2 Click board™ [(MIKROE-3325)](https://www.mikroe.com/pot-2-click)
+
+## Setup
+The AVR128DA48 Curiosity Nano Development Board is used as test platform, along with the Curiosity Nano Base for Click boards™ and the POT Click board™.
+<br><img src="images/AVR-DA_ADC_dif_setup.png" width="500">
+
+The following configurations must be made for this project:
+
+- ADC0 - Configured in Free Run Mode with Differential Mode activated
+- VREF - Reference voltage for ADC0 set to 2.048V
+
+>>>>>>> 2d5d32fe4e4e4c5bc921f017e954b7a38676d05e
 |Pin           | Configuration      |
 | :----------: | :----------------: |
 |PD3           | Analog Input       |
